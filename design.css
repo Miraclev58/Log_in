@@ -1,0 +1,116 @@
+body{
+    background-color:rgb(56, 55, 55);
+    padding: 0;
+    margin: auto;
+}
+.container{
+position: relative;
+background:rgb(5, 5, 5);
+width: 400px;
+height: 60vh;
+margin:0px auto;
+border-radius: 50px 20px;
+box-shadow: 0 2px 5px 2px rgb(211, 209, 209);
+z-index: 1;
+}
+input[type="text"]{
+margin-left: 50px;
+margin-top: 20px;
+padding-left: 10px;
+width:300px;
+height:25px;
+border:none;
+outline: none;
+border-radius: 5px;
+}
+input[type="password"]{
+margin-left: 50px;
+margin-top: 25px;
+padding-left: 10px;
+margin-bottom: 10px;
+width:300px;
+height:25px;
+border:none;
+outline: none;
+border-radius: 5px;
+}
+input[type="button"]{
+    width:250px;
+    height: 30px;
+    margin-left: 80px;
+    margin-top: 20px;
+    background-color: orangered;
+    font-size: 13pt;
+    font-weight: bold;
+    color:whitesmoke;
+    border:1px solid transparent;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 5px 0 1px rgb(27, 27, 27);
+    transition: all 200ms ease-in;
+
+}
+input[type="button"]:hover{
+    transform: translateY(5px);
+    box-shadow: 0 2px 0 2px rgb(63, 62, 62);
+    background-color: rgb(243, 161, 8);
+}
+label{
+    margin-left: 50px;
+    color:whitesmoke;
+}
+a{
+    text-decoration: none;
+    margin-left: 100px;
+    margin-top: 15px;
+    font-size: 14px;
+    color:orangered;
+}
+a:hover{
+    color:grey;
+}
+img{
+    margin-top: -90px;
+    margin-left: 50px;
+}
+.contain{
+    margin: 200px auto;
+    width: 500px;
+    height:80vh;
+    padding: 0;
+}
+.left{
+    width:150px;
+    height: 150px;
+    background: linear-gradient(45deg, red, orangered, orange, yellow);
+    margin-left:350px;
+    margin-top: -80px;
+    border-radius: 26% 74% 64% 36%/48% 58% 42% 52%;
+     box-shadow: 0 0 5px 2px rgb(250, 248, 248);
+}
+.right{
+    width:150px;
+    height: 150px;
+    background: linear-gradient(180deg, red, orangered, orange, yellow);
+    margin-bottom: -80px;
+    border-radius: 61% 39% 8% 92%/53% 44% 56% 47%;
+     box-shadow: 0 0 5px 2px rgb(250, 248, 248);
+}
+p{
+    color:white;
+    margin-left: 25%;
+
+}
+.container p a{
+    text-decoration: none;
+    font-size: 14px;
+    color:orangered;
+    margin:0;
+}
+.container p a:hover{
+    color:grey;
+}
+hr{
+    margin-top: 40px;
+    color: grey;
+}
